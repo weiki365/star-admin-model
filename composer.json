@@ -1,0 +1,24 @@
+{
+    "name": "staradmin/model",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "weiki",
+            "email": "happy_gzg@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StarAdmin\\Model\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
